@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/bottombar_home"
+            app:showAsAction="always" />
+    <item
+            android:id="@+id/appointment"
+            android:icon="@drawable/ic_calendar"
+            android:title="@string/bottombar_appointment"
+            app:showAsAction="always" />
+    <item
+            android:id="@+id/store"
+            android:icon="@drawable/ic_supermarket"
+            android:title="@string/bottombar_store"
+            app:showAsAction="always" />
+</menu>
